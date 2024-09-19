@@ -1,0 +1,110 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "poppins",sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 50%;
+    height: 100%;
+}
+.img{
+    width: 100%;
+    height: 50%;
+}
+.text{
+    width: 100%;
+    height: 50%;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.text h1{
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    color: #fff;
+}
+@font-face {
+    font-family: me;
+    src: url(Mazius-Extraitalic.121a71a7.otf);
+}
+.text h1 span{
+    font-size: 30px;
+font-weight: 800;
+color: #03D0C0;
+}
+.text .c{
+    color: #E200B7;
+    font-weight: 700;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.btn button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 60px;
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(to right,#099488,#ab088d);
+}
+.btn .content{
+    margin-left:20px ;
+    font-size: 1.2vw;
+}
+.btn i{
+    font-size: 1.4vw;
+}
+.voice{
+    display: none;
+}
+.voice img{
+    width: 80px;
+}
+@media screen and (max-width:600px) {
+    .text h1{
+        font-size: 20px;
+    }
+    .text h1 span{
+        font-size: 20px;
+    }
+    .btn{
+        width: 100%;
+    }
+    .btn button{
+        padding: 8px 15px;
+    }
+    .btn .content{
+        font-size: 10px;
+    }
+    .btn i{
+        font-size:12px;
+    }
+}
+@media screen and (max-width:370px) {
+    .btn button{
+        padding: 8px 10px;
+    }
+    .btn .content{
+        margin-left: 5px;
+        font-size: 8px;
+    }
+}
